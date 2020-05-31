@@ -116,9 +116,12 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.two-card,
-.one-card {
-  border-color: #ff99ff;
+.two-card:hover {
+  border-color: #000;
+}
+
+.one-card:hover {
+  border-color: #000;
 }
 
 ul.skills {
@@ -155,7 +158,11 @@ ul.skills {
   height: auto;
 }
 
-max-width: 100%;
+.exp {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 footer {
